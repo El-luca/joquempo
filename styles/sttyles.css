@@ -1,0 +1,41 @@
+body {
+    background-color: #82CDFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.winner-title {
+    background-color: #0099FF;
+    height: 74px;
+    font-size: 33px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 0 66px;
+    border-radius: 12px 12px 0 0;
+}
+
+.scorebord-box {
+    height: 148px;
+    background-color: #0099FF;
+}
+
+.player-name {
+    font-size: 38px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.scorebord {
+    color: #0099FF;
+    background-color: #DBF1FF;
+    font-size: 104px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
