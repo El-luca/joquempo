@@ -128,8 +128,19 @@ body {
     height: 240px;
     background-color: #DBF1FF;
     border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field-2 .image-move{
+transform:scale(-100%) ;
 }
 
 .button-start {
     margin-right: 101px;
+}
+
+.image-move{
+    width: 80%;
 }
