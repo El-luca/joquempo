@@ -144,3 +144,11 @@ transform:scale(-100%) ;
 .image-move{
     width: 80%;
 }
+
+.button-active{
+    background-color: transparent;
+    color: #FFFFFF;
+    transition-duration: 300ms;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px #0000004D;
+}
