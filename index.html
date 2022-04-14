@@ -1,55 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2? family = Lato: wght @ 400; 700 & family = Poppins &família = Roboto: ital, wght @ 0,400; 0,700; 1,700 & display = swap " rel=" stylesheet ">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/sttyles.css">
-    <title>Joquempo</title>
-
-</head>
-
-
-<body>
-    <header class="header">
-
-        <h1 class="winner-title">Vencedor!</h1>
-        <div class="scorebord-box">
-
-            <span class="player-name player-name-1">Jogadora 1</span>
-            <strong class=" scorebord scorebord-1">01</strong>
-            <span class="vs-separation">VS</span>
-            <strong class="scorebord scorebord-2">02</strong>
-            <sapn class="player-name player-name-2">Jogadora 2</sapn>
-        </div>
-    </header>
-    <section class="batlefield-container">
-        <div class="button-wrapper">
-            <button class="button-move button-stone-1">Pedra</button>
-            <button class="button-move button-paper-1">Papel</button>
-            <button class="button-move button-scissors-1">Tesoura</button>
-        </div>
-        <div class="battlefied">
-            <div class="field field-1"></div>
-            <span class="vs-separation vs-separation-big">VS </span>
-            <div class="field field-2"></div>
-        </div>
-        <div class="button-wrapper">
-            <button class='button-move button-stone-2'>Pedra</button>
-            <button class='button-move button-paper-2'>Papel</button>
-            <button class='button-move button-scissors-2'>Tesoura</button>
-        </div>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>joquempo</title>
+    <link rel="shortcut icon" href="assets/games.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="winner_title">resultado!</h1>
+    <section class="score_board">
+      <span class="scoreboard_player_name">Jogadora 1</span>
+      <strong class="score">01</strong>
+      <strong class="vs_small">VS</strong>
+      <strong class="score">01</strong>
+      <span class="scoreboard_player_name">Jogadora 2</span>
     </section>
-    <div class="button-botton-wrapper">
-        <button class='button-move button-start'>Iniciar</button>
-        <button class='button-move button-reset'>Resetar</button>
-    </div>
- <script src="index.js"></script>
-</body>
-
+    <section class="batle_field">
+      <div class="button_wrapper">
+        <button class="button_play button button-stone-player-1">Pedra</button>
+        <button class="button_play button button-paper-player-1">Papel</button>
+        <button class="button_play button button-scissors-player-1">Tesoura</button>
+      </div>
+      <div class="field_box">
+        <div class="field field-player-1"></div>
+        <strong class="vs_big">VS</strong>
+        <div class="field field-player-2"></div>
+      </div>
+      <div class="button_wrapper">
+        <button class="button_play button button-stone-player-2">Pedra</button>
+        <button class="button_play button button-paper-player-2">Papel</button>
+        <button class="button_play button button-scissors-player-2">Tesoura</button>
+      </div>
+    </section>
+    <section class="config">
+      <button class="button button_start">Iniciar</button>
+      <button class="button button_reset">Resetar</button>
+    </section>
+    <script src="index.js"></script>
+  </body>
 </html>

@@ -1,0 +1,145 @@
+:root{
+    --back: #82CDFF;
+    --buttons:#0099FF;
+    --text: #FFFFFF;
+    --field: #DBF1FF;
+}
+
+body{
+    background-color: var(--back);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.winner_title{
+    height: 74px;
+    width: 430px;
+    background-color: var(--buttons);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+    border-radius: 12px 12px 0 0;
+    font-weight: 800;
+}
+
+.score_board{
+    width: 950px;
+    height: 148px;
+    background-color: var(--buttons);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 17px;
+
+}
+
+.scoreboard_player_name{
+    color: var(--text);
+    font-size: 38px;
+    font-size: 700;
+}
+
+.score{
+    width: 130px;
+    height: 120px;
+    background-color: var(--field);
+    border-radius: 17px;
+    font-size: 104px;
+    font-weight: 900;
+    line-height: 108px;
+    justify-content: center;
+    text-align: center;
+    color: var(--buttons);
+}
+
+.vs_small{
+    color: var(--text);
+    font-weight: 900;
+    font-size: 58px;
+    margin: 0 20px;
+}
+
+.batle_field{
+    margin-top: 56px;
+    height: 454px;
+    display: flex;
+}
+
+.button_wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.button{
+    width: 220px;
+    height: 80px;
+    background-color: var(--buttons);
+    font-size: 44px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    color: var(--text);
+    cursor: pointer;
+    box-shadow: 3px 3px 8px #073655;
+}
+
+.button:hover{
+    background-color: transparent;
+    border: 1px solid #0099FF;
+    color: var(--buttons);
+    transition-duration: 300ms;
+    box-shadow: 1px 1px 1px #000;
+    transform: scale(1.1);
+}
+
+.field_box{
+    display: flex;
+    width: 900px;
+    height: 454px;
+    background-color: var(--buttons);
+    border-radius: 17px;
+    margin: 0 19px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.field{
+    width: 464px;
+    height: 345px;
+    background-color: var(--field);
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move-image{
+    width: 90%;
+}
+
+.field-player-2{
+    transform: scaleX(-1);
+}
+
+.vs_big{
+    font-size: 104px;
+    color: var(--text);
+    font-weight: 900;
+    padding: 0 18px;
+}
+
+.config{
+    margin-top: 22px;
+}
+
+.button_reset{
+    margin-left: 101px;
+}
